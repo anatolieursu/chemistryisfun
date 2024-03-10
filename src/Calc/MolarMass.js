@@ -30,14 +30,18 @@ const CalculateMolarMass = function(substance) {
             // Calc and add the mass moalr for this symbol
             let element_molar_mas = 0;
 
+
             the_elements.forEach(group => {
                 group.forEach(el => {
-                    if (el.symbol === symbol){
+                    if (el.symbol === symbol.replace(/\d+/g, '')){
                         element_molar_mas = el.atomic_mass;
                         return;
                     }
                 })
             })
+            if (symbol[symbol.length-1] >= '0' && symbol[symbol.length-1] <= '9'){
+                element_molar_mas = element_molar_mas * 2;
+            }
 
             molar_mass += element_molar_mas;
 
