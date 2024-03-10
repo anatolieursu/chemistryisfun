@@ -1,1 +1,1 @@
-<p align=center><a href="https://discord.gg/devroom"><img src="https://ibb.co/DDtpWR2"></a>
+<p align=center><img src="https://ibb.co/DDtpWR2"></p>
