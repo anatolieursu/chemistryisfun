@@ -5,14 +5,18 @@ const GetElementInformation = function(symbol) {
 
     the_elements.forEach(group => {
         group.forEach(el => {
-            if (el.symbol === symbol){
+            if (el.symbol === symbol.replace(/\d+/g, '')){
                 element = el;
                 return;
             }
         })
     })
 
-    return element;
+    if (element){
+        return element;
+    } else {
+        return null;
+    }
 }
 
 module.exports = GetElementInformation;

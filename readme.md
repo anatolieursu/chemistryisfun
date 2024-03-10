@@ -9,7 +9,7 @@
 # Get Element Information
  - Define the function <br>
 `const GetElementInformation = require("./src/Informations/GetElementInformation");`
- - Use the function with the parameter - mandatory - for element. Example: 'Ca'
+ - Use the function with the parameter - mandatory - the symbol of element. Example: 'Ca'
  - In the result you will receive the stored information about the element
  <br>
  ```
@@ -21,3 +21,9 @@
      type: "Metal" 
  }
  ```
+
+## Is Metal ?
+ - Define the function <br>
+`const IsMetal = require("./src/Informations/IsMetal");`
+ - Use then function with the parameter - mandatory - symbol
+ - Example : `console.log(IsMetal("O"))`

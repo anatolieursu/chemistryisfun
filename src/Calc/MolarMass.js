@@ -1,5 +1,6 @@
 const the_elements = require("../elements");
-const elements = require("../elements");
+const GetElementInformation = require("../Informations/GetElementInformation");
+
 const CalculateMolarMass = function(substance) {
 //     var substance is string
     if (typeof substance !== 'string'){
@@ -26,21 +27,17 @@ const CalculateMolarMass = function(substance) {
         symbol += substance[i];
 
         if (foundSymbol){
-            console.log("FOUND SYMBOL: " + symbol);
             // Calc and add the mass moalr for this symbol
             let element_molar_mas = 0;
 
+            // Get element information
+            let element = GetElementInformation(symbol);
+            element_molar_mas = element.atomic_mass;
 
-            the_elements.forEach(group => {
-                group.forEach(el => {
-                    if (el.symbol === symbol.replace(/\d+/g, '')){
-                        element_molar_mas = el.atomic_mass;
-                        return;
-                    }
-                })
-            })
+            // Check if the next char is a number
             if (symbol[symbol.length-1] >= '0' && symbol[symbol.length-1] <= '9'){
-                element_molar_mas = element_molar_mas * 2;
+                // Multiply with 'indice'
+                element_molar_mas = element_molar_mas * parseInt(symbol[symbol.length-1]);
             }
 
             molar_mass += element_molar_mas;
