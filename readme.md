@@ -1,1 +1,1 @@
-<p align=center><img src="https://github.com/anatolieursu/chemistryisfun/assets/104382017/94d4ffda-32a9-433d-93c6-0f8dfd1b116f"></p>
+<p align=center><img src="https://github.com/anatolieursu/chemistryisfun/assets/104382017/1df6e785-be3a-4eab-8fb6-47a943cba31b"></p>
