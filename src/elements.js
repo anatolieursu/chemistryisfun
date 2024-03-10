@@ -1,6 +1,6 @@
 // Elementele sunt impartite in randuri si grupe, in coordonate, incepand cu (1, 1)
 
-const elements = [
+const the_elements = [
     //     Grupa 1
     [
         {
@@ -737,4 +737,6 @@ const elements = [
     ]
 ]
 
-module.exports = elements;
+// module.exports = the_elements;
+
+module.exports = the_elements;
