@@ -1,0 +1,11 @@
+{
+  "name": "chemistryisfun",
+  "version": "1.0.0",
+  "description": "Chemistry Is FUN",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ursu Anatolie",
+  "license": "ISC"
+}
