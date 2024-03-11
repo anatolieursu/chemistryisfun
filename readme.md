@@ -27,3 +27,20 @@
 `const IsMetal = require("./src/Informations/IsMetal");`
  - Use then function with the parameter - mandatory - symbol
  - Example : `console.log(IsMetal("O"))`
+
+
+## Practice
+ -**Matter Substances** <br>
+ - Define the class <br>
+   `const MatterSubstances = require("./src/Calc/Practice/MattersSubstances");`
+ - Initialize with the parameter - 'substance'
+`const ms = new MatterSubstances("K2O");`
+ - Use a desired function
+`ex: ms.get_amount_from_mass(94)` <br>
+**FUNCTIONS:**
+ - `get_amount_from_mass()` parameter: mass ( in g )
+ - `get_amount_from_volume_stp()` parameter: volume ( in l & stp)
+ - `get_mass_from_amount_of_substance()` parameter: amount of substnace (in mol )
+ - `get_mass_from_volume_stp()` parameter: volume ( in l & stp)
+ - `get_volume_from_amount_of_substance_stp()` parameter: amount of substances ( in mol & stp )
+ - `get_volume_from_mass_stp()` parameter: mass ( in g & stp )
