@@ -37,7 +37,7 @@
     console.log(IsMetal("O"))
   ```
 
-## Practice
+# Practice
 **MATTER SUBSTANCES** <br>
 - Define the class <br>
   ```js 
