@@ -70,7 +70,7 @@
 - ```js
     get_volume_from_mass_stp()
     ```
-  
+>As for the volume, it evolves only under normal conditions ( stp ). to define STP as 0 ᵒC (273.15 K, or 32 ᵒF) and 1 atm (101.325 kPa = 760 Torr)
 
 
 **CHEMICAL BONDING**
