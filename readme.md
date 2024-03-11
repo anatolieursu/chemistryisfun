@@ -30,7 +30,7 @@
 
 
 ## Practice
- -**Matter Substances** <br>
+ **MATTER SUBSTANCES** <br>
  - Define the class <br>
    `const MatterSubstances = require("./src/Calc/Practice/MattersSubstances");`
  - Initialize with the parameter - 'substance'
@@ -44,3 +44,9 @@
  - `get_mass_from_volume_stp()` parameter: volume ( in l & stp)
  - `get_volume_from_amount_of_substance_stp()` parameter: amount of substances ( in mol & stp )
  - `get_volume_from_mass_stp()` parameter: mass ( in g & stp )
+
+**CHEMICAL BONDING**
+- Define the function: 
+`const ChemicalBond = require("./src/Calc/Practice/ChemicalBond")`
+- Use the function with substance as parameter. eg: 
+`console.log(ChemicalBond('HCl'));`

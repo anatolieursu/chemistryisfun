@@ -2,6 +2,7 @@ const CalculateMolarMass = require("./src/Calc/MolarMass")
 const GetElementInformation = require("./src/Informations/GetElementInformation");
 const IsMetal = require("./src/Informations/IsMetal");
 const MatterSubstances = require("./src/Calc/Practice/MattersSubstances");
+const ChemicalBond = require("./src/Calc/Practice/ChemicalBond")
 
 console.log("Chemistry is fun")
 
@@ -16,7 +17,8 @@ console.log("Chemistry is fun")
 // Is Metal ?
 // console.log(IsMetal("O"))
 
-// Calc the Amount of Substance having substance and (mass or volume)
-// console.log(AmountOfSubstance(5, 'K2O'))
-const ms = new MatterSubstances("K2O");
-console.log(ms.get_amount_from_mass(94))
+
+// const ms = new MatterSubstances("K2O");
+// console.log(ms.get_amount_from_mass(94))
+
+// console.log(ChemicalBond('HCl'));
