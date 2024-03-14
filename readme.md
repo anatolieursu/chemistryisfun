@@ -24,7 +24,8 @@
         nr: 20,
         atomic_mass: 40.078,
         type: "Metal"
-    }```
+    }
+    ```
 
 ## Is it a Metal?
 - Define the function <br>
@@ -37,7 +38,7 @@
     console.log(IsMetal("O"))
   ```
 
-## Practice
+# Practice
 **MATTER SUBSTANCES** <br>
 - Define the class <br>
   ```js 
