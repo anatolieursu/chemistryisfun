@@ -72,6 +72,16 @@
     ```
 >As for the volume, it evolves only under normal conditions ( stp ). to define STP as 0 ᵒC (273.15 K, or 32 ᵒF) and 1 atm (101.325 kPa = 760 Torr)
 
+**Is Endothermic ?**
+- Define the function: 
+```js
+const isEndothermic = require("./src/Calc/Equations/isEndothermic")
+```
+- Use the function with equation as parameter
+```js
+console.log(isEndothermic("Ca + Cl2 -> CaCl2 -Q"))
+```
+
 
 **CHEMICAL BONDING**
 - Define the function:

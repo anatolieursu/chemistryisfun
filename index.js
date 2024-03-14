@@ -3,6 +3,7 @@ const GetElementInformation = require("./src/Informations/GetElementInformation"
 const IsMetal = require("./src/Informations/IsMetal");
 const MatterSubstances = require("./src/Calc/Practice/MattersSubstances");
 const ChemicalBond = require("./src/Calc/Practice/ChemicalBond")
+const isEndothermic = require("./src/Calc/Equations/isEndothermic")
 
 console.log("Chemistry is fun")
 
@@ -22,3 +23,5 @@ console.log("Chemistry is fun")
 // console.log(ms.get_amount_from_mass(94))
 
 // console.log(ChemicalBond('HCl'));
+
+console.log(isEndothermic("Ca + Cl2 -> CaCl2 -Q"))
