@@ -26,6 +26,15 @@
         type: "Metal"
     }
     ```
+# Get The Element from atomic mass
+- Define the function <br>
+```js
+const GetElementFromMass = require("./src/Informations/ElementFromMass")
+```
+- Use the function with int parameter
+```js
+console.log(GetElementFromMass(11))
+```
 
 ## Is it a Metal?
 - Define the function <br>

@@ -5,6 +5,8 @@ const MatterSubstances = require("./src/Calc/Practice/MattersSubstances");
 const ChemicalBond = require("./src/Calc/Practice/ChemicalBond")
 const isEndothermic = require("./src/Calc/Equations/isEndothermic")
 
+const GetElementFromMass = require("./src/Informations/ElementFromMass")
+
 console.log("Chemistry is fun")
 
 // Calculate molar mass
@@ -24,4 +26,6 @@ console.log("Chemistry is fun")
 
 // console.log(ChemicalBond('HCl'));
 
-console.log(isEndothermic("Ca + Cl2 -> CaCl2 -Q"))
+// console.log(isEndothermic("Ca + Cl2 -> CaCl2 -Q"))
+
+console.log(GetElementFromMass(11))
