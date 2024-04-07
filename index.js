@@ -28,4 +28,18 @@ console.log("Chemistry is fun")
 
 // console.log(isEndothermic("Ca + Cl2 -> CaCl2 -Q"))
 
-console.log(GetElementFromMass(11))
+
+// O problema de la chimie
+const masses = [62, 63, 125, 46, 47, 109, 30, 31, 93, 14, 15, 77]
+masses.forEach(m => {
+    let data = GetElementFromMass(m);
+    if (data !== null){
+        name = data.name;
+        // Trebuie sa fie nemetal
+        if (!IsMetal(data.symbol)) {
+            console.log(m + "-"  + name)
+        }
+    } else {
+        name = "null"
+    }
+})
